@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="form-container">
+
+        <section style="background-color: #d97706;">
+            <div class="content">
+                <div class="form-header">
+                    <h1>Survey Form</h1>
+                    <p>User Stories Survey Form</p>
+                </div>
+
+
+                <form action="#" method="POST">
+                    <div class="form-body">
+
+                        <div class="form-row">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter Name" class="form-input">
+                        </div>
+
+
+                        <div class="form-row">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="Enter E-Mail" class="form-input">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="experience">Work Experience</label>
+                            <input type="number" id="experience" name="experience" placeholder="Enter Number"
+                                class="form-input">
+                        </div>
+
+
+                        <div class="form-row">
+                            <label for="real-estate-comfort">Are you comfortable in investing in real estate on platform
+                                without
+                                first investigating properly</label>
+                            <select id="real-estate-comfort" name="real-estate-comfort" class="form-input">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                                <option value="maybe">Maybe</option>
+                            </select>
+                        </div>
+
+
+                        <div class="form-row items-start">
+                            <label for="suggestions">Suggestions to build trusted platform</label>
+                            <textarea id="suggestions" name="suggestions" class="form-input"></textarea>
+                        </div>
+
+
+                        <div class="form-row items-start">
+                            <p class="label-text">You are ready to invest in</p>
+                            <div class="choice-group">
+                                <div class="choice-item">
+                                    <input id="invest-real-estate" name="investment_choice" type="checkbox"
+                                        value="Real Estate">
+                                    <label for="invest-real-estate">Real Estate</label>
+                                </div>
+                                <div class="choice-item">
+                                    <input id="invest-mutual-funds" name="investment_choice" type="checkbox"
+                                        value="Mutual Funds">
+                                    <label for="invest-mutual-funds">Mutual Funds</label>
+                                </div>
+                                <div class="choice-item">
+                                    <input id="invest-crypto" name="investment_choice" type="checkbox"
+                                        value="Crypto Currency">
+                                    <label for="invest-crypto">Crypto Currency</label>
+                                </div>
+                                <div class="choice-item">
+                                    <input id="invest-stocks" name="investment_choice" type="checkbox"
+                                        value="Stocks & Bonds">
+                                    <label for="invest-stocks">Stocks & Bonds</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-row items-start">
+                            <p class="label-text">Are you ready for further contact?</p>
+                            <div class="radio-group">
+                                <div class="choice-item">
+                                    <input id="contact-yes" name="further_contact" type="radio" value="Yes">
+                                    <label for="contact-yes">Yes</label>
+                                </div>
+                                <div class="choice-item">
+                                    <input id="contact-no" name="further_contact" type="radio" value="No">
+                                    <label for="contact-no">No</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="submit-container">
+                        <button type="submit" class="submit-btn">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section style="align-items: center; text-align: center; padding: 50px;">
+            <h1>Simple Survey Form</h1>
+
+
+            <p><strong>Description:</strong>This project is to create a user-friendly survey form that collects various
+                types of information from users. The form will include different types of
+                input fields, such as text boxes, radio buttons, checkboxes, and a submit button. The focus is on
+                creating a clear, accessible, and easy-to-use form layout</p>
+        </section>
+    </div>
+
+</body>
+
+</html>
